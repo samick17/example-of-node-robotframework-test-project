@@ -19,6 +19,6 @@
   },
   "license": "MIT",
   "dependencies": {
-    "node-robotframework-test-runner": "^1.0.2"
+    "node-robotframework-test-runner": "^1.0.3"
   }
 }
