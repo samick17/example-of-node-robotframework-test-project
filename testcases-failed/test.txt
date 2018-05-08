@@ -1,0 +1,20 @@
+*** Settings ***
+Suite Setup
+Suite Teardown
+Test Setup
+Test Teardown
+Force Tags        mytag1    mytag2
+Default Tags      default-tag
+Test Timeout      10 minutes
+Metadata          meta_name    title    # meta name comment
+Library           Remote    http://${HOST}:${PORT}
+
+*** Variables ***
+${HOST}           127.0.0.1    # Default is 127.0.0.1
+${PORT}           8270
+
+*** Test Cases ***
+Foo
+    ${items1} =    factorial    5
+    Log    ${items1}
+    Should Be Equal As Numbers    ${items1}    121    Value is 120

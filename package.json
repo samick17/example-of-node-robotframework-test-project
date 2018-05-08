@@ -1,0 +1,24 @@
+{
+  "name": "example-of-node-robotframework-test-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "RobotFramework",
+    "Testing",
+    "Keyword Driven",
+    "TestAutomation"
+  ],
+  "author": {
+    "name": "Samick",
+    "email": "boneache@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "node-robotframework-test-runner": "^1.0.2"
+  }
+}
